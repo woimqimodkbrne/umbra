@@ -69,7 +69,7 @@ public class FontRepository
         );
 
         List<Task<IFontHandle>> tasks = [
-            CreateGameFont(Font.AxisExtraSmall, new(GameFontFamily.Axis, 12.79f * Element.ScaleFactor)),
+            CreateGameFont(Font.AxisExtraSmall, new(GameFontFamilyAndSize.Axis12)),
             CreateGameFont(Font.AxisSmall, new(GameFontFamily.Axis, 14.66f * Element.ScaleFactor)),
             CreateGameFont(Font.Axis, new(GameFontFamily.Axis, 16 * Element.ScaleFactor)),
             CreateGameFont(Font.AxisLarge, new(GameFontFamily.Axis, 18.66f * Element.ScaleFactor)),
